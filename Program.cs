@@ -22,8 +22,6 @@ namespace EtwListener
             //worker.WorkerSupportsCancellation = true;
             //worker.RunWorkerAsync();
 
-
-            //Guid XAudio2ProviderId = new Guid("8f8942e2-66b4-5650-8cf1-de723ca48565");
             Guid XAudio2ProviderId = new Guid("A6A00EFD-21F2-4A99-807E-9B3BF1D90285");
 
             using (EventTraceWatcher watcher = new EventTraceWatcher("XAudio4", XAudio2ProviderId))
